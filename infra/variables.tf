@@ -9,6 +9,21 @@ variable "aws_profile" {
 }
 
 variable "aws_account_id" {
-  type    = string
-  sensitive   = true
+  type      = string
+  sensitive = true
+}
+
+variable "aws_cognito_client_id" {
+  type      = string
+  sensitive = true
+}
+
+variable "aws_cognito_client_secret" {
+  type      = string
+  sensitive = true
+}
+
+variable "aws_cognito_user_pool" {
+  type      = string
+  sensitive = true
 }
